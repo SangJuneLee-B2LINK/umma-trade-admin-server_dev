@@ -1,0 +1,561 @@
+{
+  "Category":  [
+    {
+      "id": 1,
+      "code": "001",
+      "depth": 1,
+      "sort": 0,
+      "name": "Skin Care",
+      "comments": "Skin Care",
+      "status": "Y"
+    },
+    {
+      "id": 2,
+      "code": "001001",
+      "parentCd": "001",
+      "depth": 2,
+      "sort": 0,
+      "name": "Cleansers",
+      "comments": "Cleansers",
+      "status": "Y"
+    },
+    {
+      "id": 3,
+      "code": "001001001",
+      "parentCd": "001001",
+      "depth": 3,
+      "sort": 0,
+      "name": "Face Wash & Cleansers",
+      "comments": "Face Wash & Cleansers",
+      "status": "Y"
+    },
+    {
+      "id": 4,
+      "code": "001001002",
+      "parentCd": "001001",
+      "depth": 3,
+      "sort": 0,
+      "name": "Cleansing Oils",
+      "comments": "Cleansing Oils",
+      "status": "Y"
+    },
+    {
+      "id": 5,
+      "code": "001001003",
+      "parentCd": "001001",
+      "depth": 3,
+      "sort": 0,
+      "name": "Cleansing Wipes",
+      "comments": "Cleansing Wipes",
+      "status": "Y"
+    },
+    {
+      "id": 6,
+      "code": "001001004",
+      "parentCd": "001001",
+      "depth": 3,
+      "sort": 0,
+      "name": "Exfoliators& Scrubs",
+      "comments": "Exfoliators& Scrubs",
+      "status": "Y"
+    },
+    {
+      "id": 7,
+      "code": "001001005",
+      "parentCd": "001001",
+      "depth": 3,
+      "sort": 0,
+      "name": "Toners",
+      "comments": "Toners",
+      "status": "Y"
+    },
+    {
+      "id": 8,
+      "code": "001001006",
+      "parentCd": "001001",
+      "depth": 3,
+      "sort": 0,
+      "name": "Makeup Removers",
+      "comments": "Makeup Removers",
+      "status": "Y"
+    },
+    {
+      "id": 9,
+      "code": "001002",
+      "parentCd": "001",
+      "depth": 2,
+      "sort": 0,
+      "name": "Moisturizers",
+      "comments": "Moisturizers",
+      "status": "Y"
+    },
+    {
+      "id": 10,
+      "code": "001002001",
+      "parentCd": "001002",
+      "depth": 3,
+      "sort": 0,
+      "name": "Face Moisturizer",
+      "comments": "Face Moisturizer",
+      "status": "Y"
+    },
+    {
+      "id": 11,
+      "code": "001002002",
+      "parentCd": "001002",
+      "depth": 3,
+      "sort": 0,
+      "name": "Face Oil",
+      "comments": "Face Oil",
+      "status": "Y"
+    },
+    {
+      "id": 12,
+      "code": "001002003",
+      "parentCd": "001002",
+      "depth": 3,
+      "sort": 0,
+      "name": "Essences & Serums & Ampoules",
+      "comments": "Essences & Serums & Ampoules",
+      "status": "Y"
+    },
+    {
+      "id": 13,
+      "code": "001002004",
+      "parentCd": "001002",
+      "depth": 3,
+      "sort": 0,
+      "name": "Face Mist",
+      "comments": "Face Mist",
+      "status": "Y"
+    },
+    {
+      "id": 14,
+      "code": "001002005",
+      "parentCd": "001002",
+      "depth": 3,
+      "sort": 0,
+      "name": "Eye Cream",
+      "comments": "Eye Cream",
+      "status": "Y"
+    },
+    {
+      "id": 15,
+      "code": "001003",
+      "parentCd": "001",
+      "depth": 2,
+      "sort": 0,
+      "name": "Face Masks",
+      "comments": "Face Masks",
+      "status": "Y"
+    },
+    {
+      "id": 16,
+      "code": "001003001",
+      "parentCd": "001003",
+      "depth": 3,
+      "sort": 0,
+      "name": "Sheet Mask",
+      "comments": "Sheet Mask",
+      "status": "Y"
+    },
+    {
+      "id": 17,
+      "code": "001003002",
+      "parentCd": "001003",
+      "depth": 3,
+      "sort": 0,
+      "name": "Wash Off Mask",
+      "comments": "Wash Off Mask",
+      "status": "Y"
+    },
+    {
+      "id": 18,
+      "code": "001003003",
+      "parentCd": "001003",
+      "depth": 3,
+      "sort": 0,
+      "name": "Peel Off Mask",
+      "comments": "Peel Off Mask",
+      "status": "Y"
+    },
+    {
+      "id": 19,
+      "code": "001003004",
+      "parentCd": "001003",
+      "depth": 3,
+      "sort": 0,
+      "name": "Sleeping Masks And Others",
+      "comments": "Sleeping Masks And Others",
+      "status": "Y"
+    },
+    {
+      "id": 20,
+      "code": "001004",
+      "parentCd": "001",
+      "depth": 2,
+      "sort": 0,
+      "name": "Sun Care",
+      "comments": "Sun Care",
+      "status": "Y"
+    },
+    {
+      "id": 21,
+      "code": "001004001",
+      "parentCd": "001004",
+      "depth": 3,
+      "sort": 0,
+      "name": "Sun Care",
+      "comments": "Sun Care",
+      "status": "Y"
+    },
+    {
+      "id": 22,
+      "code": "001005",
+      "parentCd": "001",
+      "depth": 2,
+      "sort": 0,
+      "name": "Face",
+      "comments": "Face",
+      "status": "Y"
+    },
+    {
+      "id": 23,
+      "code": "001005001",
+      "parentCd": "001005",
+      "depth": 3,
+      "sort": 0,
+      "name": "Foundation",
+      "comments": "Foundation",
+      "status": "Y"
+    },
+    {
+      "id": 24,
+      "code": "001005002",
+      "parentCd": "001005",
+      "depth": 3,
+      "sort": 0,
+      "name": "Cushion",
+      "comments": "Cushion",
+      "status": "Y"
+    },
+    {
+      "id": 25,
+      "code": "001005003",
+      "parentCd": "001005",
+      "depth": 3,
+      "sort": 0,
+      "name": "BB&CC Cream",
+      "comments": "BB&CC Cream",
+      "status": "Y"
+    },
+    {
+      "id": 26,
+      "code": "001005004",
+      "parentCd": "001005",
+      "depth": 3,
+      "sort": 0,
+      "name": "Concealer",
+      "comments": "Concealer",
+      "status": "Y"
+    },
+    {
+      "id": 27,
+      "code": "001005005",
+      "parentCd": "001005",
+      "depth": 3,
+      "sort": 0,
+      "name": "Face Primer",
+      "comments": "Face Primer",
+      "status": "Y"
+    },
+    {
+      "id": 28,
+      "code": "001005006",
+      "parentCd": "001005",
+      "depth": 3,
+      "sort": 0,
+      "name": "Highlighter & Contouring",
+      "comments": "Highlighter & Contouring",
+      "status": "Y"
+    },
+    {
+      "id": 29,
+      "code": "001005007",
+      "parentCd": "001005",
+      "depth": 3,
+      "sort": 0,
+      "name": "Setting Powder & Spray",
+      "comments": "Setting Powder & Spray",
+      "status": "Y"
+    },
+    {
+      "id": 30,
+      "code": "001005008",
+      "parentCd": "001005",
+      "depth": 3,
+      "sort": 0,
+      "name": "Blush",
+      "comments": "Blush",
+      "status": "Y"
+    },
+    {
+      "id": 31,
+      "code": "002",
+      "depth": 1,
+      "sort": 0,
+      "name": "Make Up",
+      "comments": "Make Up",
+      "status": "Y"
+    },
+    {
+      "id": 32,
+      "code": "002001",
+      "parentCd": "002",
+      "depth": 2,
+      "sort": 0,
+      "name": "Eye",
+      "comments": "Eye",
+      "status": "Y"
+    },
+    {
+      "id": 33,
+      "code": "002001001",
+      "parentCd": "002001",
+      "depth": 3,
+      "sort": 0,
+      "name": "Eyebrow",
+      "comments": "Eyebrow",
+      "status": "Y"
+    },
+    {
+      "id": 34,
+      "code": "002001002",
+      "parentCd": "002001",
+      "depth": 3,
+      "sort": 0,
+      "name": "Eyeshadow",
+      "comments": "Eyeshadow",
+      "status": "Y"
+    },
+    {
+      "id": 35,
+      "code": "002001003",
+      "parentCd": "002001",
+      "depth": 3,
+      "sort": 0,
+      "name": "Eye Liner",
+      "comments": "Eye Liner",
+      "status": "Y"
+    },
+    {
+      "id": 36,
+      "code": "002001004",
+      "parentCd": "002001",
+      "depth": 3,
+      "sort": 0,
+      "name": "Mascara & Eyelash Treatment",
+      "comments": "Mascara & Eyelash Treatment",
+      "status": "Y"
+    },
+    {
+      "id": 37,
+      "code": "002002",
+      "parentCd": "002",
+      "depth": 2,
+      "sort": 0,
+      "name": "Lip",
+      "comments": "Lip",
+      "status": "Y"
+    },
+    {
+      "id": 38,
+      "code": "002002001",
+      "parentCd": "002002",
+      "depth": 3,
+      "sort": 0,
+      "name": "Lipstick",
+      "comments": "Lipstick",
+      "status": "Y"
+    },
+    {
+      "id": 39,
+      "code": "002002002",
+      "parentCd": "002002",
+      "depth": 3,
+      "sort": 0,
+      "name": "Lip Tint",
+      "comments": "Lip Tint",
+      "status": "Y"
+    },
+    {
+      "id": 40,
+      "code": "002002003",
+      "parentCd": "002002",
+      "depth": 3,
+      "sort": 0,
+      "name": "Lip Gloss",
+      "comments": "Lip Gloss",
+      "status": "Y"
+    },
+    {
+      "id": 41,
+      "code": "002002004",
+      "parentCd": "002002",
+      "depth": 3,
+      "sort": 0,
+      "name": "Lip Balm & Treatment",
+      "comments": "Lip Balm & Treatment",
+      "status": "Y"
+    },
+    {
+      "id": 42,
+      "code": "003",
+      "depth": 1,
+      "sort": 0,
+      "name": "Others",
+      "comments": "Others",
+      "status": "Y"
+    },
+    {
+      "id": 43,
+      "code": "003001",
+      "parentCd": "003",
+      "depth": 2,
+      "sort": 0,
+      "name": "Body",
+      "comments": "Body",
+      "status": "Y"
+    },
+    {
+      "id": 44,
+      "code": "003001001",
+      "parentCd": "003001",
+      "depth": 3,
+      "sort": 0,
+      "name": "Body",
+      "comments": "Body",
+      "status": "Y"
+    },
+    {
+      "id": 45,
+      "code": "003002",
+      "parentCd": "003",
+      "depth": 2,
+      "sort": 0,
+      "name": "Hand & Foot Care",
+      "comments": "Hand & Foot Care",
+      "status": "Y"
+    },
+    {
+      "id": 46,
+      "code": "003002001",
+      "parentCd": "003002",
+      "depth": 3,
+      "sort": 0,
+      "name": "Hand & Foot Care",
+      "comments": "Hand & Foot Care",
+      "status": "Y"
+    },
+    {
+      "id": 47,
+      "code": "003003",
+      "parentCd": "003",
+      "depth": 2,
+      "sort": 0,
+      "name": "Hair",
+      "comments": "Hair",
+      "status": "Y"
+    },
+    {
+      "id": 48,
+      "code": "003003001",
+      "parentCd": "003003",
+      "depth": 3,
+      "sort": 0,
+      "name": "Shampoo",
+      "comments": "Shampoo",
+      "status": "Y"
+    },
+    {
+      "id": 49,
+      "code": "003003002",
+      "parentCd": "003003",
+      "depth": 3,
+      "sort": 0,
+      "name": "Conditioner & Treatment",
+      "comments": "Conditioner & Treatment",
+      "status": "Y"
+    },
+    {
+      "id": 50,
+      "code": "003003003",
+      "parentCd": "003003",
+      "depth": 3,
+      "sort": 0,
+      "name": "Others",
+      "comments": "Others",
+      "status": "Y"
+    },
+    {
+      "id": 51,
+      "code": "003004",
+      "parentCd": "003",
+      "depth": 2,
+      "sort": 0,
+      "name": "Nail",
+      "comments": "Nail",
+      "status": "Y"
+    },
+    {
+      "id": 52,
+      "code": "003004001",
+      "parentCd": "003004",
+      "depth": 3,
+      "sort": 0,
+      "name": "Nail",
+      "comments": "Nail",
+      "status": "Y"
+    },
+    {
+      "id": 53,
+      "code": "003005",
+      "parentCd": "003",
+      "depth": 2,
+      "sort": 0,
+      "name": "Fragrances",
+      "comments": "Fragrances",
+      "status": "Y"
+    },
+    {
+      "id": 54,
+      "code": "003005001",
+      "parentCd": "003005",
+      "depth": 3,
+      "sort": 0,
+      "name": "Fragrances",
+      "comments": "Fragrances",
+      "status": "Y"
+    },
+    {
+      "id": 55,
+      "code": "003006",
+      "parentCd": "003",
+      "depth": 2,
+      "sort": 0,
+      "name": "Others",
+      "comments": "Others",
+      "status": "Y"
+    },
+    {
+      "id": 56,
+      "code": "003006001",
+      "parentCd": "003006",
+      "depth": 3,
+      "sort": 0,
+      "name": "Others",
+      "comments": "Others",
+      "status": "Y"
+    }
+  ]
+}

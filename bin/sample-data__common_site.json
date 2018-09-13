@@ -1,0 +1,25 @@
+{
+  "CommonSite": [ 
+	{ "id": 1, "name": "SERVICE_NAME", "contents": "Umma Beauty Traders" }
+	, { "id": 2, "name": "SERVICE_DOMAIN", "contents": "https://ummma.io" }
+	, { "id": 3, "name": "SERVICE_DESCRIPTION", "contents": "우마뷰티트레이더스는 B2B플랫폼이다." }
+	, { "id": 4, "name": "SERVICE_LANGUAGE", "contents": "ENGLISH" }
+	, { "id": 5, "name": "SERVICE_CURRENCY", "contents": "USD" }
+	, { "id": 6, "name": "SERVICE_CURRENCY_SYMBOL", "contents": "$" }
+	, { "id": 7, "name": "SERVICE_PRIVACY_MANAGER", "contents": "JACE LEE" }
+	, { "id": 8, "name": "COMPANY_NAME", "contents": "회사명" }
+	, { "id": 9, "name": "COMPANY_BIZ_NUMBER", "contents": "111-111-1111111" }
+	, { "id": 10, "name": "COMPANY_COUNTRY", "contents": "KOREA" }
+	, { "id": 11, "name": "COMPANY_ADDRESS", "contents": "OOO,OOO,OOO,Gangnam-gu,Seoul,Korea" }
+	, { "id": 12, "name": "COMPANY_ZIPCODE", "contents": "102345" }
+	, { "id": 13, "name": "COMPANY_CEO_NAME", "contents": "Nate Lee" }
+	, { "id": 14, "name": "COMPANY_TELEPHONE", "contents": "+82 2 0000 0000" }
+	, { "id": 15, "name": "COMPANY_FAX", "contents": "+82 2 0000 0000" }
+	, { "id": 16, "name": "COMPANY_WEBSITE", "contents": "http://b2link.co.kr" }
+	, { "id": 17, "name": "INQUIRY_PRODCUT_EMAIL", "contents": "info@umma.io" }
+	, { "id": 18, "name": "INQUIRY_SYSYEM_EMAIL", "contents": "info@umma.io" }
+	, { "id": 19, "name": "INQUIRY_AFFILIATE_EMAIL", "contents": "info@umma.io" }
+	, { "id": 20, "name": "INQUIRY_TARNSACTION_EMAIL", "contents": "info@umma.io" }
+	, { "id": 21, "name": "INQUIRY_ETC_EMAIL", "contents": "info@umma.io" }
+  ]
+}

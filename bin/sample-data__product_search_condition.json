@@ -1,0 +1,6 @@
+{
+  "ProductSearchCondition": [ 
+	{"id" : 1,"userId" : 1,"keyword" : "[ \"mask\", \"cleanser\"]","category" : "[1, 2, 3]","brand" : "[1, 2]","MOQ" : 100,"MSRP" : "{\"min\" : 0, \"max\" : 500}","supplyCountry" : "[\"KR\", \"US\"]" }
+	, {"id" : 2,"userId" : 2,"keyword" : "[ \"mask\", \"cleanser\"]","category" : "[1, 2, 3]","brand" : "[1, 2]","MOQ" : 100,"MSRP" : "{\"min\" : 0, \"max\" : 500}","supplyCountry" : "[\"KR\", \"US\"]" }
+  ]
+}

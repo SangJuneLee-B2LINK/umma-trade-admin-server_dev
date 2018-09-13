@@ -1,0 +1,52 @@
+{
+	"Admin": [
+		{
+			"id":"A1",
+			"roleId" : 1,
+			"userType" : "SA",
+			"companyId" : "A1",
+			"ctId" : "KR",
+			"firstName":"test",
+			"lastName":"admin",
+			"password":"tjrwns2482!",
+			"email":"gisholic+umma.admin@gmail.com",
+			"avatar" : "https://www.shareicon.net/data/128x128/2015/10/07/113615_face_512x512.png",
+			"position" : "Manager",
+			"phone" : "+821068636311",
+			"mobile" : "+821068636311",
+			"comments":"테스트유저입니다."
+		},
+		{
+			"id":"A2",
+			"roleId" : 1,
+			"userType" : "NA",
+			"companyId" : "A1",
+			"ctId" : "KR",
+			"firstName" : "Choi",
+			"lastName" : "Sukjune",
+			"password" : "tjrwns2482!",
+			"email" : "jun@blink.co.kr",
+			"avatar" : "https://www.shareicon.net/data/128x128/2015/10/07/113615_face_512x512.png",
+			"position" : "Manager",
+			"phone" : "+821068636311",
+			"mobile" : "+821068636311",
+			"comments" : "테스트유저입니다."
+		}
+		, {
+			"id":"A3",
+			"roleId" : 1,
+			"userType" : "NA",
+			"companyId" : "A1",
+			"ctId" : "KR",
+			"firstName" : "Luke",
+			"lastName" : "Choi",
+			"password" : "tjrwns2482!",
+			"email" : "jun@blink.co.kr",
+			"avatar" : "https://www.shareicon.net/data/128x128/2015/10/07/113615_face_512x512.png",
+			"position" : "Manager",
+			"phone" : "+821068636311",
+			"mobile" : "+821068636311",
+			"comments" : "테스트유저입니다."
+		}
+	]
+}

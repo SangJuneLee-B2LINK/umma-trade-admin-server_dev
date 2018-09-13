@@ -1,0 +1,51 @@
+{
+  "name": "umma-trade-admin-server",
+  "version": "1.0.0",
+  "description": "Umma-Trade is global B2B ecommerce platform.",
+  "productName": "Umma Trade Admin Server",
+  "companyName": "UMMA by B2LiNK",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/B2Labs/umma-trade-seller-server.git"
+  },
+  "license": "UNLICENSED",
+  "private": true,
+  "email": "dev@b2link.co.kr",
+  "author": "B2LiNK-B2LABS <dev@b2link.co.kr>",
+  "main": "server/server.js",
+  "engines": {
+    "node": ">=8.1"
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "start": "node .",
+    "posttest": "npm run lint && nsp check",
+    "runServerClient": "npm start && ng build"
+  },
+  "dependencies": {
+    "app-root-path": "^2.1.0",
+    "bunyan": "^1.8.12",
+    "bunyan-cloudwatch": "^2.2.0",
+    "bunyan-prettystream": "^0.1.3",
+    "compression": "^1.7.3",
+    "cors": "^2.8.4",
+    "dotenv": "^6.0.0",
+    "helmet": "^3.13.0",
+    "loopback": "^3.22.0",
+    "loopback-boot": "^2.27.1",
+    "loopback-component-explorer": "^6.2.0",
+    "loopback-component-logger": "^1.0.0",
+    "loopback-component-storage": "^3.5.0",
+    "loopback-connector-mongodb": "^3.5.0",
+    "loopback-connector-mysql": "^5.3.0",
+    "loopback-connector-rest": "^3.2.0",
+    "serve-favicon": "^2.5.0",
+    "strong-error-handler": "^3.1.0"
+  },
+  "devDependencies": {
+    "eslint": "^5.3.0",
+    "eslint-config-loopback": "^11.0.0",
+    "nsp": "^3.2.1",
+    "supertest": "^3.1.0"
+  }
+}

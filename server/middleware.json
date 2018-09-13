@@ -1,0 +1,72 @@
+{
+  "initial:before": {
+    "loopback#favicon": {
+      "params": "$!../client/dist/umma-trade-client-desktop/favicon.ico"
+    }
+  },
+  "initial": {
+    "./middleware/tracker": {},
+    "compression": {},
+    "cors": {
+      "params": {
+        "origin": true,
+        "credentials": true,
+        "maxAge": 86400
+      }
+    },
+    "helmet#xssFilter": {},
+    "helmet#frameguard": {
+      "params": {
+        "action": "deny"
+      }
+    },
+    "helmet#hsts": {
+      "params": {
+        "maxAge": 0,
+        "includeSubdomains": true
+      }
+    },
+    "helmet#hidePoweredBy": {},
+    "helmet#ieNoOpen": {},
+    "helmet#noSniff": {},
+    "helmet#noCache": {
+      "enabled": false
+    }
+  },
+  "auth": {
+    "loopback#token": {
+      "params": {
+        "model": "CustomAccessToken"
+      }
+    }
+  },
+  "parse": {
+    "body-parser#json": {},
+    "body-parser#urlencoded": {
+      "params": {
+        "extended": true
+      }
+    }
+  },
+  "routes": {
+    "./middleware/datetime": {
+      "paths": "/datetime"
+    },
+    "loopback#rest": {
+      "paths": [
+        "${restApiRoot}"
+      ]
+    }
+  },
+  "files": {
+    "loopback#static": {
+      "params": "$!../client/dist/umma-trade-client-desktop"
+    }
+  },
+  "final": {
+    "./middleware/custom404.js": {}
+  },
+  "final:after": {
+    "strong-error-handler": {}
+  }
+}

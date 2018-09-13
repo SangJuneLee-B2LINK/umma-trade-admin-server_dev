@@ -1,0 +1,10 @@
+{
+  "loopback-component-explorer": {
+    "mountPath": "/explorer",
+    "generateOperationScopedModels": true
+  },
+  "loopback-component-logger": {
+    "enableAPI": true
+  },
+  "./components/version": true
+}

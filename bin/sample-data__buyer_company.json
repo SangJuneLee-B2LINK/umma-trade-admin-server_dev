@@ -1,0 +1,61 @@
+{
+	"BuyerCompany": [
+		{
+			"id" : "B1",
+			"bizType" : "DTB",
+			"scale" : "LV2",
+			"name" : "UMMA Trade - 1",
+			"logo" : "https://www.b2link.co.kr/static/images/w/layout/logo-navy.png",
+			"ceoFirstName" : "소형",
+			"ceoLastName" : "이",
+			"bizNumber" : "00000000000",
+			"phone" : "+820000000",
+			"fax" : "+820000000",
+			"ctId" : "KR",
+			"city" : "SEOUL",
+			"address1" : "강남역",
+			"address2" : "미림타워",
+			"zipcode" : "100456",
+			"website" : "http://umma.io",
+			"comments" : "테스트정보입니다."
+		},
+		{
+			"id" : "B2",
+			"bizType" : "DTB",
+			"scale" : "LV2",
+			"name" : "UMMA Trade - 1",
+			"logo" : "https://www.b2link.co.kr/static/images/w/layout/logo-navy.png",
+			"ceoFirstName" : "소형",
+			"ceoLastName" : "이",
+			"bizNumber" : "00000000000",
+			"phone" : "+820000000",
+			"fax" : "+820000000",
+			"ctId" : "KR",
+			"city" : "SEOUL",
+			"address1" : "강남역",
+			"address2" : "미림타워",
+			"zipcode" : "100456",
+			"website" : "http://umma.io",
+			"comments" : "테스트정보입니다."
+		},
+		{
+			"id" : "B3",
+			"bizType" : "DTB",
+			"scale" : "LV2",
+			"name" : "UMMA Trade - 1",
+			"logo" : "https://www.b2link.co.kr/static/images/w/layout/logo-navy.png",			
+			"ceoFirstName" : "소형",
+			"ceoLastName" : "이",
+			"bizNumber" : "00000000000",
+			"phone" : "+820000000",
+			"fax" : "+820000000",
+			"ctId" : "KR",
+			"city" : "SEOUL",
+			"address1" : "강남역",
+			"address2" : "미림타워",
+			"zipcode" : "100456",
+			"website" : "http://umma.io",
+			"comments" : "테스트정보입니다."
+		}
+	]
+}

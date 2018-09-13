@@ -1,0 +1,1820 @@
+{
+  "CommonCode": [
+	  {
+	    "id": 1,
+	    "parentId": 0,
+	    "depth": 1,
+	    "code": "DATA_STATUS",
+	    "name": "DATA_STATUS",
+	    "comments": "상태값"
+	  },
+	  {
+	    "id": 2,
+	    "parentId": 0,
+	    "depth": 1,
+	    "code": "USER_STATUS",
+	    "name": "USER_STATUS",
+	    "comments": "회원 상태값"
+	  },
+	  {
+	    "id": 3,
+	    "parentId": 1,
+	    "depth": 2,
+	    "code": "D",
+	    "name": "DELETED",
+	    "comments": "삭제"
+	  },
+	  {
+	    "id": 4,
+	    "parentId": 1,
+	    "depth": 2,
+	    "code": "N",
+	    "name": "NOT_USE",
+	    "comments": "미사용"
+	  },
+	  {
+	    "id": 5,
+	    "parentId": 1,
+	    "depth": 2,
+	    "code": "Y",
+	    "name": "USE",
+	    "comments": "사용"
+	  },
+	  {
+	    "id": 6,
+	    "parentId": 2,
+	    "depth": 2,
+	    "code": "W",
+	    "name": "WAITING",
+	    "comments": "대기"
+	  },
+	  {
+	    "id": 7,
+	    "parentId": 2,
+	    "depth": 2,
+	    "code": "A",
+	    "name": "APPROVAL",
+	    "comments": "승인"
+	  },
+	  {
+	    "id": 8,
+	    "parentId": 2,
+	    "depth": 2,
+	    "code": "N",
+	    "name": "REFUSED",
+	    "comments": "거절"
+	  },
+	  {
+	    "id": 9,
+	    "parentId": 2,
+	    "depth": 2,
+	    "code": "H",
+	    "name": "HOLDING",
+	    "comments": "보류"
+	  },
+	  {
+	    "id": 10,
+	    "parentId": 2,
+	    "depth": 2,
+	    "code": "O",
+	    "name": "OUT",
+	    "comments": "탈퇴"
+	  },
+	  {
+	    "id": 11,
+	    "parentId": 0,
+	    "depth": 1,
+	    "code": "USER_TYPE",
+	    "name": "USER_TYPE",
+	    "comments": "회원타입"
+	  },
+	  {
+	    "id": 12,
+	    "parentId": 11,
+	    "depth": 2,
+	    "code": "A",
+	    "name": "ADMIN",
+	    "comments": "관리자"
+	  },
+	  {
+	    "id": 13,
+	    "parentId": 11,
+	    "depth": 2,
+	    "code": "B",
+	    "name": "BUYER",
+	    "comments": "바이어"
+	  },
+	  {
+	    "id": 14,
+	    "parentId": 11,
+	    "depth": 2,
+	    "code": "S",
+	    "name": "SELLER",
+	    "comments": "셀러"
+	  },
+	  {
+	    "id": 15,
+	    "parentId": 12,
+	    "depth": 3,
+	    "code": "SA",
+	    "name": "SUPER_ADMIN",
+	    "comments": "슈퍼관리자"
+	  },
+	  {
+	    "id": 16,
+	    "parentId": 12,
+	    "depth": 3,
+	    "code": "NA",
+	    "name": "NORMAL_ADMIN",
+	    "comments": "일반관리자"
+	  },
+	  {
+	    "id": 17,
+	    "parentId": 13,
+	    "depth": 3,
+	    "code": "R",
+	    "name": "RETAILER",
+	    "comments": "리테일러"
+	  },
+	  {
+	    "id": 18,
+	    "parentId": 13,
+	    "depth": 3,
+	    "code": "V",
+	    "name": "VENDOR",
+	    "comments": "벤더"
+	  },
+	  {
+	    "id": 19,
+	    "parentId": 13,
+	    "depth": 3,
+	    "code": "ETC",
+	    "name": "ETC",
+	    "comments": "기타"
+	  },
+	  {
+	    "id": 20,
+	    "parentId": 0,
+	    "depth": 1,
+	    "code": "BIZ_TYPE",
+	    "name": "BIZ_TYPE",
+	    "comments": "사업형태"
+	  },
+	  {
+	    "id": 21,
+	    "parentId": 20,
+	    "depth": 2,
+	    "code": "CS",
+	    "name": "CHAIN_STORE",
+	    "comments": "Large Distribution (Chain Stores)"
+	  },
+	  {
+	    "id": 22,
+	    "parentId": 20,
+	    "depth": 2,
+	    "code": "DS",
+	    "name": "DRUG_STORE",
+	    "comments": "Drug Store"
+	  },
+	  {
+	    "id": 23,
+	    "parentId": 20,
+	    "depth": 2,
+	    "code": "DFS",
+	    "name": "DUTY_FREE_SHOP",
+	    "comments": "Duty Free Shops"
+	  },
+	  {
+	    "id": 25,
+	    "parentId": 20,
+	    "depth": 2,
+	    "code": "EC",
+	    "name": "E_COMMERCE",
+	    "comments": "E-Commerce"
+	  },
+	  {
+	    "id": 26,
+	    "parentId": 20,
+	    "depth": 2,
+	    "code": "DTB",
+	    "name": "DISTRIBUTER",
+	    "comments": "Distributor"
+	  },
+	  {
+	    "id": 27,
+	    "parentId": 20,
+	    "depth": 2,
+	    "code": "BS",
+	    "name": "BEAUTY_SALON",
+	    "comments": "Beauty Salon"
+	  },
+	  {
+	    "id": 28,
+	    "parentId": 20,
+	    "depth": 2,
+	    "code": "HS",
+	    "name": "HAIR_SALON",
+	    "comments": "Hair Salon"
+	  },
+	  {
+	    "id": 29,
+	    "parentId": 20,
+	    "depth": 2,
+	    "code": "NS",
+	    "name": "NAIL_SALON",
+	    "comments": "Nail Salon"
+	  },
+	  {
+	    "id": 30,
+	    "parentId": 20,
+	    "depth": 2,
+	    "code": "SPA",
+	    "name": "SPA",
+	    "comments": "Spa"
+	  },
+	  {
+	    "id": 31,
+	    "parentId": 20,
+	    "depth": 2,
+	    "code": "ETC",
+	    "name": "ETC",
+	    "comments": "ETC"
+	  },
+	  {
+	    "id": 32,
+	    "parentId": 0,
+	    "depth": 1,
+	    "code": "BIZ_VOLUME",
+	    "name": "BIZ_VOLUME",
+	    "comments": "사업규모"
+	  },
+	  {
+	    "id": 33,
+	    "parentId": 32,
+	    "depth": 2,
+	    "code": "LV0",
+	    "name": "LEVEL0",
+	    "comments": "I prefer not to say"
+	  },
+	  {
+	    "id": 34,
+	    "parentId": 32,
+	    "depth": 2,
+	    "code": "LV1",
+	    "name": "LEVEL1",
+	    "comments": "$0M ~ $1M"
+	  },
+	  {
+	    "id": 35,
+	    "parentId": 32,
+	    "depth": 2,
+	    "code": "LV2",
+	    "name": "LEVEL2",
+	    "comments": "$1M ~ $2M"
+	  },
+	  {
+	    "id": 36,
+	    "parentId": 32,
+	    "depth": 2,
+	    "code": "LV3",
+	    "name": "LEVEL3",
+	    "comments": "$2M ~ $5M"
+	  },
+	  {
+	    "id": 37,
+	    "parentId": 32,
+	    "depth": 2,
+	    "code": "LV4",
+	    "name": "LEVEL4",
+	    "comments": "$5M ~ $20M"
+	  },
+	  {
+	    "id": 38,
+	    "parentId": 32,
+	    "depth": 2,
+	    "code": "LV5",
+	    "name": "LEVEL5",
+	    "comments": "$20M ~ $50M"
+	  },
+	  {
+	    "id": 39,
+	    "parentId": 32,
+	    "depth": 2,
+	    "code": "LV6",
+	    "name": "LEVEL6",
+	    "comments": "$50M ~ $100M"
+	  },
+	  {
+	    "id": 40,
+	    "parentId": 32,
+	    "depth": 2,
+	    "code": "LV7",
+	    "name": "LEVEL7",
+	    "comments": "$100M ~ $200M"
+	  },
+	  {
+	    "id": 41,
+	    "parentId": 32,
+	    "depth": 2,
+	    "code": "LV8",
+	    "name": "LEVEL8",
+	    "comments": "$200M ~ $500M"
+	  },
+	  {
+	    "id": 42,
+	    "parentId": 32,
+	    "depth": 2,
+	    "code": "LV9",
+	    "name": "LEVEL9",
+	    "comments": "$500M+"
+	  },
+	  {
+	    "id": 43,
+	    "parentId": 0,
+	    "depth": 1,
+	    "code": "PRODUCT_REG_STATUS",
+	    "name": "PRODUCT_REG_STATUS",
+	    "comments": "상품상태"
+	  },
+	  {
+	    "id": 44,
+	    "parentId": 43,
+	    "depth": 2,
+	    "code": "W",
+	    "name": "WAITING",
+	    "comments": "대기"
+	  },
+	  {
+	    "id": 45,
+	    "parentId": 43,
+	    "depth": 2,
+	    "code": "A",
+	    "name": "APPROVED",
+	    "comments": "승인"
+	  },
+	  {
+	    "id": 46,
+	    "parentId": 43,
+	    "depth": 2,
+	    "code": "R",
+	    "name": "REFUSED",
+	    "comments": "반려"
+	  },
+	  {
+	    "id": 47,
+	    "parentId": 0,
+	    "depth": 1,
+	    "code": "MSDS_TYPE",
+	    "name": "MSDS_TYPE",
+	    "comments": "MSDS"
+	  },
+	  {
+	    "id": 48,
+	    "parentId": 47,
+	    "depth": 2,
+	    "code": "DG",
+	    "name": "DANGEROUS_GOOD",
+	    "comments": "DG(특수 포장 필요)"
+	  },
+	  {
+	    "id": 49,
+	    "parentId": 47,
+	    "depth": 2,
+	    "code": "NDG",
+	    "name": "NONE_DANGEROUS_GOOD",
+	    "comments": "Non-DG(일반 포장 배송 가능)"
+	  },
+	  {
+	    "id": 50,
+	    "parentId": 0,
+	    "depth": 1,
+	    "code": "INQUIRY_TYPE",
+	    "name": "INQUIRY_TYPE",
+	    "comments": "문의타입"
+	  },
+	  {
+	    "id": 51,
+	    "parentId": 50,
+	    "depth": 2,
+	    "code": "P",
+	    "name": "INQUIRY_PRODUCT",
+	    "comments": "상품문의"
+	  },
+	  {
+	    "id": 52,
+	    "parentId": 50,
+	    "depth": 2,
+	    "code": "S",
+	    "name": "INQUIRY_SERVICE",
+	    "comments": "서비스문의"
+	  },
+	  {
+	    "id": 53,
+	    "parentId": 50,
+	    "depth": 2,
+	    "code": "A",
+	    "name": "INQUIRY_ASSOCIATE",
+	    "comments": "제휴문의"
+	  },
+	  {
+	    "id": 54,
+	    "parentId": 50,
+	    "depth": 2,
+	    "code": "E",
+	    "name": "INQUIRY_ETC",
+	    "comments": "기타"
+	  },
+	    {
+	      "id": "55",
+	      "parentId": "0",
+	      "depth": "1",
+	      "code": "DISTRIBUTION_CHANNEL",
+	      "name": "DISTRIBUTION_CHANNEL",
+	      "comments": "유통채널"
+	    },
+	    {
+	      "id": "56",
+	      "parentId": "55",
+	      "depth": "2",
+	      "code": "DC1",
+	      "name": "AMAZON",
+	      "comments": "Amazon"
+	    },
+	    {
+	      "id": "57",
+	      "parentId": "55",
+	      "depth": "2",
+	      "code": "DC2",
+	      "name": "ANTHROPOLOGIE",
+	      "comments": "Anthropologie"
+	    },
+	    {
+	      "id": "58",
+	      "parentId": "55",
+	      "depth": "2",
+	      "code": "DC3",
+	      "name": "AS_NATURE_INTENDED",
+	      "comments": "As Nature Intended"
+	    },
+	    {
+	      "id": "59",
+	      "parentId": "55",
+	      "depth": "2",
+	      "code": "DC4",
+	      "name": "AS_WATSON_GROUP",
+	      "comments": "AS Watson Group"
+	    },
+	    {
+	      "id": "60",
+	      "parentId": "55",
+	      "depth": "2",
+	      "code": "DC5",
+	      "name": "BARTELL_DRUG",
+	      "comments": "Bartell Drug"
+	    },
+	    {
+	      "id": "61",
+	      "parentId": "55",
+	      "depth": "2",
+	      "code": "DC6",
+	      "name": "BATH_BODY_WORKS",
+	      "comments": "Bath & Body Works"
+	    },
+	    {
+	      "id": "62",
+	      "parentId": "55",
+	      "depth": "2",
+	      "code": "DC7",
+	      "name": "BEAUTY_4_U",
+	      "comments": "Beauty 4 U"
+	    },
+	    {
+	      "id": "63",
+	      "parentId": "55",
+	      "depth": "2",
+	      "code": "DC8",
+	      "name": "BEAUTY_COLLECTION",
+	      "comments": "Beauty Collection"
+	    },
+	    {
+	      "id": "64",
+	      "parentId": "55",
+	      "depth": "2",
+	      "code": "DC9",
+	      "name": "BEAUTYCARECHOICES_COM",
+	      "comments": "BeautyCareChoices.com"
+	    },
+	    {
+	      "id": "65",
+	      "parentId": "55",
+	      "depth": "2",
+	      "code": "DC10",
+	      "name": "BED_BATH_BEYOND",
+	      "comments": "Bed Bath & Beyond"
+	    },
+	    {
+	      "id": "66",
+	      "parentId": "55",
+	      "depth": "2",
+	      "code": "DC11",
+	      "name": "BELK",
+	      "comments": "Belk"
+	    },
+	    {
+	      "id": "67",
+	      "parentId": "55",
+	      "depth": "2",
+	      "code": "DC12",
+	      "name": "BIG_W",
+	      "comments": "Big W"
+	    },
+	    {
+	      "id": "68",
+	      "parentId": "55",
+	      "depth": "2",
+	      "code": "DC13",
+	      "name": "BI_MART",
+	      "comments": "Bi-Mart"
+	    },
+	    {
+	      "id": "69",
+	      "parentId": "55",
+	      "depth": "2",
+	      "code": "DC14",
+	      "name": "BIRCHBOX",
+	      "comments": "Birchbox"
+	    },
+	    {
+	      "id": "70",
+	      "parentId": "55",
+	      "depth": "2",
+	      "code": "DC15",
+	      "name": "BLOOMINGDALES",
+	      "comments": "Bloomingdale's"
+	    },
+	    {
+	      "id": "71",
+	      "parentId": "55",
+	      "depth": "2",
+	      "code": "DC16",
+	      "name": "BOOTS",
+	      "comments": "Boots"
+	    },
+	    {
+	      "id": "72",
+	      "parentId": "55",
+	      "depth": "2",
+	      "code": "DC17",
+	      "name": "BOSCOVS",
+	      "comments": "Boscov’s"
+	    },
+	    {
+	      "id": "73",
+	      "parentId": "55",
+	      "depth": "2",
+	      "code": "DC18",
+	      "name": "BURLINGTON_COAT_FACTORY",
+	      "comments": "Burlington Coat Factory"
+	    },
+	    {
+	      "id": "74",
+	      "parentId": "55",
+	      "depth": "2",
+	      "code": "DC19",
+	      "name": "CANYON_RANCH",
+	      "comments": "Canyon Ranch"
+	    },
+	    {
+	      "id": "75",
+	      "parentId": "55",
+	      "depth": "2",
+	      "code": "DC20",
+	      "name": "CENTRO_NATURAL",
+	      "comments": "Centro Natural"
+	    },
+	    {
+	      "id": "76",
+	      "parentId": "55",
+	      "depth": "2",
+	      "code": "DC21",
+	      "name": "CHARLOTTE_RUSSE",
+	      "comments": "Charlotte Russe"
+	    },
+	    {
+	      "id": "77",
+	      "parentId": "55",
+	      "depth": "2",
+	      "code": "DC22",
+	      "name": "CHARMING_CHARLIE",
+	      "comments": "Charming Charlie"
+	    },
+	    {
+	      "id": "78",
+	      "parentId": "55",
+	      "depth": "2",
+	      "code": "DC23",
+	      "name": "CITI_TRENDS",
+	      "comments": "Citi Trends"
+	    },
+	    {
+	      "id": "79",
+	      "parentId": "55",
+	      "depth": "2",
+	      "code": "DC24",
+	      "name": "CLAIRES",
+	      "comments": "Claire's"
+	    },
+	    {
+	      "id": "80",
+	      "parentId": "55",
+	      "depth": "2",
+	      "code": "DC25",
+	      "name": "CLEAN_BEAUTY_MART",
+	      "comments": "Clean Beauty Mart"
+	    },
+	    {
+	      "id": "81",
+	      "parentId": "55",
+	      "depth": "2",
+	      "code": "DC26",
+	      "name": "COAST_GUARD_EXCHANGE",
+	      "comments": "Coast Guard Exchange"
+	    },
+	    {
+	      "id": "82",
+	      "parentId": "55",
+	      "depth": "2",
+	      "code": "DC27",
+	      "name": "COLES",
+	      "comments": "Coles"
+	    },
+	    {
+	      "id": "83",
+	      "parentId": "55",
+	      "depth": "2",
+	      "code": "DC28",
+	      "name": "COST_PLUS_WORLD_MARKET",
+	      "comments": "Cost Plus World Market"
+	    },
+	    {
+	      "id": "84",
+	      "parentId": "55",
+	      "depth": "2",
+	      "code": "DC29",
+	      "name": "COSTCO",
+	      "comments": "Costco"
+	    },
+	    {
+	      "id": "85",
+	      "parentId": "55",
+	      "depth": "2",
+	      "code": "DC30",
+	      "name": "CRACKER_BARREL_OLD_COUNTRY_STORES",
+	      "comments": "Cracker Barrel Old Country Stores"
+	    },
+	    {
+	      "id": "86",
+	      "parentId": "55",
+	      "depth": "2",
+	      "code": "DC31",
+	      "name": "CREST_FRESH_MARKET",
+	      "comments": "Crest Fresh Market"
+	    },
+	    {
+	      "id": "87",
+	      "parentId": "55",
+	      "depth": "2",
+	      "code": "DC32",
+	      "name": "DEBENHAMS",
+	      "comments": "Debenhams"
+	    },
+	    {
+	      "id": "88",
+	      "parentId": "55",
+	      "depth": "2",
+	      "code": "DC33",
+	      "name": "DERMSTORE_COM",
+	      "comments": "dermstore.com"
+	    },
+	    {
+	      "id": "89",
+	      "parentId": "55",
+	      "depth": "2",
+	      "code": "DC34",
+	      "name": "DILLARDS",
+	      "comments": "Dillard's"
+	    },
+	    {
+	      "id": "90",
+	      "parentId": "55",
+	      "depth": "2",
+	      "code": "DC35",
+	      "name": "DISCOUNT_DRUG_MART",
+	      "comments": "Discount Drug Mart"
+	    },
+	    {
+	      "id": "91",
+	      "parentId": "55",
+	      "depth": "2",
+	      "code": "DC36",
+	      "name": "DOLLAR_GENERAL",
+	      "comments": "Dollar General"
+	    },
+	    {
+	      "id": "92",
+	      "parentId": "55",
+	      "depth": "2",
+	      "code": "DC37",
+	      "name": "DOLLAR_TREE",
+	      "comments": "Dollar Tree"
+	    },
+	    {
+	      "id": "93",
+	      "parentId": "55",
+	      "depth": "2",
+	      "code": "DC38",
+	      "name": "EARTH_ORIGINS_MARKET",
+	      "comments": "Earth Origins Market"
+	    },
+	    {
+	      "id": "94",
+	      "parentId": "55",
+	      "depth": "2",
+	      "code": "DC39",
+	      "name": "EBAY",
+	      "comments": "Ebay"
+	    },
+	    {
+	      "id": "95",
+	      "parentId": "55",
+	      "depth": "2",
+	      "code": "DC40",
+	      "name": "EL_CORTES_INGLES",
+	      "comments": "El Cortes Ingles"
+	    },
+	    {
+	      "id": "96",
+	      "parentId": "55",
+	      "depth": "2",
+	      "code": "DC41",
+	      "name": "ELEGANT_BEAUTY_SUPPLIES",
+	      "comments": "Elegant Beauty Supplies"
+	    },
+	    {
+	      "id": "97",
+	      "parentId": "55",
+	      "depth": "2",
+	      "code": "DC42",
+	      "name": "ETSY_COM",
+	      "comments": "Etsy.com"
+	    },
+	    {
+	      "id": "98",
+	      "parentId": "55",
+	      "depth": "2",
+	      "code": "DC43",
+	      "name": "EVINE_LIVE",
+	      "comments": "Evine Live"
+	    },
+	    {
+	      "id": "99",
+	      "parentId": "55",
+	      "depth": "2",
+	      "code": "DC44",
+	      "name": "FAMILY_DOLLAR_STORES",
+	      "comments": "Family Dollar Stores"
+	    },
+	    {
+	      "id": "100",
+	      "parentId": "55",
+	      "depth": "2",
+	      "code": "DC45",
+	      "name": "FEEL_BEAUTY_SUPPLY",
+	      "comments": "Feel Beauty Supply"
+	    },
+	    {
+	      "id": "101",
+	      "parentId": "55",
+	      "depth": "2",
+	      "code": "DC46",
+	      "name": "FEELUNIQUE",
+	      "comments": "Feelunique"
+	    },
+	    {
+	      "id": "102",
+	      "parentId": "55",
+	      "depth": "2",
+	      "code": "DC47",
+	      "name": "FENWICK",
+	      "comments": "Fenwick"
+	    },
+	    {
+	      "id": "103",
+	      "parentId": "55",
+	      "depth": "2",
+	      "code": "DC48",
+	      "name": "FOOD_LION",
+	      "comments": "Food Lion"
+	    },
+	    {
+	      "id": "104",
+	      "parentId": "55",
+	      "depth": "2",
+	      "code": "DC49",
+	      "name": "FOOD4LESS",
+	      "comments": "Food4Less"
+	    },
+	    {
+	      "id": "105",
+	      "parentId": "55",
+	      "depth": "2",
+	      "code": "DC50",
+	      "name": "FRED_MEYER",
+	      "comments": "Fred Meyer"
+	    },
+	    {
+	      "id": "106",
+	      "parentId": "55",
+	      "depth": "2",
+	      "code": "DC51",
+	      "name": "FREE_PEOPLE",
+	      "comments": "Free People"
+	    },
+	    {
+	      "id": "107",
+	      "parentId": "55",
+	      "depth": "2",
+	      "code": "DC52",
+	      "name": "FUEGO",
+	      "comments": "Fuego"
+	    },
+	    {
+	      "id": "108",
+	      "parentId": "55",
+	      "depth": "2",
+	      "code": "DC53",
+	      "name": "GALA_FRESH_FARMS",
+	      "comments": "Gala Fresh Farms"
+	    },
+	    {
+	      "id": "109",
+	      "parentId": "55",
+	      "depth": "2",
+	      "code": "DC54",
+	      "name": "GNC",
+	      "comments": "GNC"
+	    },
+	    {
+	      "id": "110",
+	      "parentId": "55",
+	      "depth": "2",
+	      "code": "DC55",
+	      "name": "HAGGEN",
+	      "comments": "Haggen"
+	    },
+	    {
+	      "id": "111",
+	      "parentId": "55",
+	      "depth": "2",
+	      "code": "DC56",
+	      "name": "HAMMACHER_SCHLEMMER",
+	      "comments": "Hammacher Schlemmer"
+	    },
+	    {
+	      "id": "112",
+	      "parentId": "55",
+	      "depth": "2",
+	      "code": "DC57",
+	      "name": "HANNAFORD",
+	      "comments": "Hannaford"
+	    },
+	    {
+	      "id": "113",
+	      "parentId": "55",
+	      "depth": "2",
+	      "code": "DC58",
+	      "name": "HB_BEAUTY_BAR",
+	      "comments": "HB Beauty Bar"
+	    },
+	    {
+	      "id": "114",
+	      "parentId": "55",
+	      "depth": "2",
+	      "code": "DC59",
+	      "name": "HEB",
+	      "comments": "HEB"
+	    },
+	    {
+	      "id": "115",
+	      "parentId": "55",
+	      "depth": "2",
+	      "code": "DC60",
+	      "name": "HERA_BEAUTY",
+	      "comments": "Hera Beauty"
+	    },
+	    {
+	      "id": "116",
+	      "parentId": "55",
+	      "depth": "2",
+	      "code": "DC61",
+	      "name": "HOLLAND_AND_BARRETT",
+	      "comments": "Holland and Barrett"
+	    },
+	    {
+	      "id": "117",
+	      "parentId": "55",
+	      "depth": "2",
+	      "code": "DC62",
+	      "name": "HSN",
+	      "comments": "HSN"
+	    },
+	    {
+	      "id": "118",
+	      "parentId": "55",
+	      "depth": "2",
+	      "code": "DC63",
+	      "name": "ICING",
+	      "comments": "Icing"
+	    },
+	    {
+	      "id": "119",
+	      "parentId": "55",
+	      "depth": "2",
+	      "code": "DC64",
+	      "name": "IHERB",
+	      "comments": "iHerb"
+	    },
+	    {
+	      "id": "120",
+	      "parentId": "55",
+	      "depth": "2",
+	      "code": "DC65",
+	      "name": "IPSY",
+	      "comments": "Ipsy"
+	    },
+	    {
+	      "id": "121",
+	      "parentId": "55",
+	      "depth": "2",
+	      "code": "DC66",
+	      "name": "JEAN_COUTU",
+	      "comments": "Jean Coutu"
+	    },
+	    {
+	      "id": "122",
+	      "parentId": "55",
+	      "depth": "2",
+	      "code": "DC67",
+	      "name": "JET",
+	      "comments": "Jet"
+	    },
+	    {
+	      "id": "123",
+	      "parentId": "55",
+	      "depth": "2",
+	      "code": "DC68",
+	      "name": "KING_SOOPERS",
+	      "comments": "King Soopers"
+	    },
+	    {
+	      "id": "124",
+	      "parentId": "55",
+	      "depth": "2",
+	      "code": "DC69",
+	      "name": "KITCHEN_COLLECTION",
+	      "comments": "Kitchen Collection"
+	    },
+	    {
+	      "id": "125",
+	      "parentId": "55",
+	      "depth": "2",
+	      "code": "DC70",
+	      "name": "KOHLS",
+	      "comments": "Kohl's"
+	    },
+	    {
+	      "id": "126",
+	      "parentId": "55",
+	      "depth": "2",
+	      "code": "DC71",
+	      "name": "KOTSOVOLOS",
+	      "comments": "Kotsovolos"
+	    },
+	    {
+	      "id": "127",
+	      "parentId": "55",
+	      "depth": "2",
+	      "code": "DC72",
+	      "name": "KROGER",
+	      "comments": "Kroger"
+	    },
+	    {
+	      "id": "128",
+	      "parentId": "55",
+	      "depth": "2",
+	      "code": "DC73",
+	      "name": "LIDL",
+	      "comments": "Lidl"
+	    },
+	    {
+	      "id": "129",
+	      "parentId": "55",
+	      "depth": "2",
+	      "code": "DC74",
+	      "name": "LONDON_DRUGS",
+	      "comments": "London Drugs"
+	    },
+	    {
+	      "id": "130",
+	      "parentId": "55",
+	      "depth": "2",
+	      "code": "DC75",
+	      "name": "LORD_TAYLOR",
+	      "comments": "Lord & Taylor"
+	    },
+	    {
+	      "id": "131",
+	      "parentId": "55",
+	      "depth": "2",
+	      "code": "DC76",
+	      "name": "LUCKY_VITAMIN",
+	      "comments": "Lucky Vitamin"
+	    },
+	    {
+	      "id": "132",
+	      "parentId": "55",
+	      "depth": "2",
+	      "code": "DC77",
+	      "name": "MACEYS",
+	      "comments": "Maceys"
+	    },
+	    {
+	      "id": "133",
+	      "parentId": "55",
+	      "depth": "2",
+	      "code": "DC78",
+	      "name": "MACS_FRESH_MARKET",
+	      "comments": "Mac's Fresh Market"
+	    },
+	    {
+	      "id": "134",
+	      "parentId": "55",
+	      "depth": "2",
+	      "code": "DC79",
+	      "name": "MACYS",
+	      "comments": "Macy's"
+	    },
+	    {
+	      "id": "135",
+	      "parentId": "55",
+	      "depth": "2",
+	      "code": "DC80",
+	      "name": "MAISON_BABY",
+	      "comments": "Maison Baby"
+	    },
+	    {
+	      "id": "136",
+	      "parentId": "55",
+	      "depth": "2",
+	      "code": "DC81",
+	      "name": "MARIANOS",
+	      "comments": "Mariano’s"
+	    },
+	    {
+	      "id": "137",
+	      "parentId": "55",
+	      "depth": "2",
+	      "code": "DC82",
+	      "name": "MARINE_CORPS_EXCHANGE",
+	      "comments": "Marine Corps Exchange"
+	    },
+	    {
+	      "id": "138",
+	      "parentId": "55",
+	      "depth": "2",
+	      "code": "DC83",
+	      "name": "MARKS_SPENCER",
+	      "comments": "Marks & Spencer"
+	    },
+	    {
+	      "id": "139",
+	      "parentId": "55",
+	      "depth": "2",
+	      "code": "DC84",
+	      "name": "MARLENES_MARKET_DELI",
+	      "comments": "Marlene's Market & Deli"
+	    },
+	    {
+	      "id": "140",
+	      "parentId": "55",
+	      "depth": "2",
+	      "code": "DC85",
+	      "name": "MEIJER",
+	      "comments": "Meijer"
+	    },
+	    {
+	      "id": "141",
+	      "parentId": "55",
+	      "depth": "2",
+	      "code": "DC86",
+	      "name": "NATURES_FARE",
+	      "comments": "Nature's Fare"
+	    },
+	    {
+	      "id": "142",
+	      "parentId": "55",
+	      "depth": "2",
+	      "code": "DC87",
+	      "name": "NEIMAN_MARCUS",
+	      "comments": "Neiman Marcus"
+	    },
+	    {
+	      "id": "143",
+	      "parentId": "55",
+	      "depth": "2",
+	      "code": "DC88",
+	      "name": "NEWEGG_COM",
+	      "comments": "Newegg.com"
+	    },
+	    {
+	      "id": "144",
+	      "parentId": "55",
+	      "depth": "2",
+	      "code": "DC89",
+	      "name": "NEX_NAVY_EXCHANGE",
+	      "comments": "NEX Navy Exchange"
+	    },
+	    {
+	      "id": "145",
+	      "parentId": "55",
+	      "depth": "2",
+	      "code": "DC90",
+	      "name": "NEXT",
+	      "comments": "Next"
+	    },
+	    {
+	      "id": "146",
+	      "parentId": "55",
+	      "depth": "2",
+	      "code": "DC91",
+	      "name": "NORDSTROM",
+	      "comments": "Nordstrom"
+	    },
+	    {
+	      "id": "147",
+	      "parentId": "55",
+	      "depth": "2",
+	      "code": "DC92",
+	      "name": "NUGGET_MARKET",
+	      "comments": "Nugget Market"
+	    },
+	    {
+	      "id": "148",
+	      "parentId": "55",
+	      "depth": "2",
+	      "code": "DC93",
+	      "name": "NUTRITION_SMART",
+	      "comments": "Nutrition Smart"
+	    },
+	    {
+	      "id": "149",
+	      "parentId": "55",
+	      "depth": "2",
+	      "code": "DC94",
+	      "name": "OVERSTOCK_COM",
+	      "comments": "Overstock.com"
+	    },
+	    {
+	      "id": "150",
+	      "parentId": "55",
+	      "depth": "2",
+	      "code": "DC95",
+	      "name": "PCC_NATURAL_MARKETS",
+	      "comments": "PCC Natural Markets"
+	    },
+	    {
+	      "id": "151",
+	      "parentId": "55",
+	      "depth": "2",
+	      "code": "DC96",
+	      "name": "PENINSULA_BEAUTY",
+	      "comments": "Peninsula Beauty"
+	    },
+	    {
+	      "id": "152",
+	      "parentId": "55",
+	      "depth": "2",
+	      "code": "DC97",
+	      "name": "PHARMACA",
+	      "comments": "Pharmaca"
+	    },
+	    {
+	      "id": "153",
+	      "parentId": "55",
+	      "depth": "2",
+	      "code": "DC98",
+	      "name": "PHARMAPRIX",
+	      "comments": "Pharmaprix"
+	    },
+	    {
+	      "id": "154",
+	      "parentId": "55",
+	      "depth": "2",
+	      "code": "DC99",
+	      "name": "PLANET_BEAUTY",
+	      "comments": "Planet Beauty"
+	    },
+	    {
+	      "id": "155",
+	      "parentId": "55",
+	      "depth": "2",
+	      "code": "DC100",
+	      "name": "PLANET_ORGANIC",
+	      "comments": "Planet Organic"
+	    },
+	    {
+	      "id": "156",
+	      "parentId": "55",
+	      "depth": "2",
+	      "code": "DC101",
+	      "name": "RAINBOW_SHOPS",
+	      "comments": "Rainbow Shops"
+	    },
+	    {
+	      "id": "157",
+	      "parentId": "55",
+	      "depth": "2",
+	      "code": "DC102",
+	      "name": "RALPHS",
+	      "comments": "Ralphs"
+	    },
+	    {
+	      "id": "158",
+	      "parentId": "55",
+	      "depth": "2",
+	      "code": "DC103",
+	      "name": "REXALL",
+	      "comments": "Rexall"
+	    },
+	    {
+	      "id": "159",
+	      "parentId": "55",
+	      "depth": "2",
+	      "code": "DC104",
+	      "name": "RILEY_ROSE",
+	      "comments": "Riley Rose"
+	    },
+	    {
+	      "id": "160",
+	      "parentId": "55",
+	      "depth": "2",
+	      "code": "DC105",
+	      "name": "SAKS",
+	      "comments": "Saks"
+	    },
+	    {
+	      "id": "161",
+	      "parentId": "55",
+	      "depth": "2",
+	      "code": "DC106",
+	      "name": "SALLY_BEAUTY",
+	      "comments": "Sally Beauty"
+	    },
+	    {
+	      "id": "162",
+	      "parentId": "55",
+	      "depth": "2",
+	      "code": "DC107",
+	      "name": "SELFRIDGES",
+	      "comments": "Selfridges"
+	    },
+	    {
+	      "id": "163",
+	      "parentId": "55",
+	      "depth": "2",
+	      "code": "DC108",
+	      "name": "SEPHORA",
+	      "comments": "Sephora"
+	    },
+	    {
+	      "id": "164",
+	      "parentId": "55",
+	      "depth": "2",
+	      "code": "DC109",
+	      "name": "SLEEK_HAIR",
+	      "comments": "Sleek Hair"
+	    },
+	    {
+	      "id": "165",
+	      "parentId": "55",
+	      "depth": "2",
+	      "code": "DC110",
+	      "name": "SNUGGLE_BUGZ",
+	      "comments": "Snuggle Bugz"
+	    },
+	    {
+	      "id": "166",
+	      "parentId": "55",
+	      "depth": "2",
+	      "code": "DC111",
+	      "name": "SOKO_GLAM",
+	      "comments": "Soko Glam"
+	    },
+	    {
+	      "id": "167",
+	      "parentId": "55",
+	      "depth": "2",
+	      "code": "DC112",
+	      "name": "SPACE_NK",
+	      "comments": "Space NK"
+	    },
+	    {
+	      "id": "168",
+	      "parentId": "55",
+	      "depth": "2",
+	      "code": "DC113",
+	      "name": "SPRING_MARKET",
+	      "comments": "Spring Market"
+	    },
+	    {
+	      "id": "169",
+	      "parentId": "55",
+	      "depth": "2",
+	      "code": "DC114",
+	      "name": "TARGET",
+	      "comments": "Target"
+	    },
+	    {
+	      "id": "170",
+	      "parentId": "55",
+	      "depth": "2",
+	      "code": "DC115",
+	      "name": "TEKNIKMAGASINET",
+	      "comments": "Teknikmagasinet"
+	    },
+	    {
+	      "id": "171",
+	      "parentId": "55",
+	      "depth": "2",
+	      "code": "DC116",
+	      "name": "THE_HAPPY_HERB_COMPANY",
+	      "comments": "The Happy Herb Company"
+	    },
+	    {
+	      "id": "172",
+	      "parentId": "55",
+	      "depth": "2",
+	      "code": "DC117",
+	      "name": "THE_HUT_GROUP",
+	      "comments": "The Hut Group"
+	    },
+	    {
+	      "id": "173",
+	      "parentId": "55",
+	      "depth": "2",
+	      "code": "DC118",
+	      "name": "THE_MAKEUP_CLUB",
+	      "comments": "The Makeup Club"
+	    },
+	    {
+	      "id": "174",
+	      "parentId": "55",
+	      "depth": "2",
+	      "code": "DC119",
+	      "name": "THEGROMMET",
+	      "comments": "TheGrommet"
+	    },
+	    {
+	      "id": "175",
+	      "parentId": "55",
+	      "depth": "2",
+	      "code": "DC120",
+	      "name": "TOPSHOP",
+	      "comments": "Topshop"
+	    },
+	    {
+	      "id": "176",
+	      "parentId": "55",
+	      "depth": "2",
+	      "code": "DC121",
+	      "name": "ULTA",
+	      "comments": "ULTA"
+	    },
+	    {
+	      "id": "177",
+	      "parentId": "55",
+	      "depth": "2",
+	      "code": "DC122",
+	      "name": "UNCOMMON_GOODS",
+	      "comments": "Uncommon Goods"
+	    },
+	    {
+	      "id": "178",
+	      "parentId": "55",
+	      "depth": "2",
+	      "code": "DC123",
+	      "name": "UNIPRIX",
+	      "comments": "Uniprix"
+	    },
+	    {
+	      "id": "179",
+	      "parentId": "55",
+	      "depth": "2",
+	      "code": "DC124",
+	      "name": "URBAN_OUTFITTERS",
+	      "comments": "Urban Outfitters"
+	    },
+	    {
+	      "id": "180",
+	      "parentId": "55",
+	      "depth": "2",
+	      "code": "DC125",
+	      "name": "VITA_COST",
+	      "comments": "Vita-Cost"
+	    },
+	    {
+	      "id": "181",
+	      "parentId": "55",
+	      "depth": "2",
+	      "code": "DC126",
+	      "name": "WALGREENS",
+	      "comments": "Walgreens"
+	    },
+	    {
+	      "id": "182",
+	      "parentId": "55",
+	      "depth": "2",
+	      "code": "DC127",
+	      "name": "WALMART",
+	      "comments": "Walmart"
+	    },
+	    {
+	      "id": "183",
+	      "parentId": "55",
+	      "depth": "2",
+	      "code": "DC128",
+	      "name": "WEST_COAST_BEAUTY",
+	      "comments": "West Coast Beauty"
+	    },
+	    {
+	      "id": "184",
+	      "parentId": "55",
+	      "depth": "2",
+	      "code": "DC129",
+	      "name": "WIGS_COM",
+	      "comments": "Wigs.com"
+	    },
+	    {
+	      "id": "185",
+	      "parentId": "0",
+	      "depth": "1",
+	      "code": "AUTHORIZATION_CERTIFICATION",
+	      "name": "AUTHORIZATION_AND_CERTIFICATION",
+	      "comments": "허가 및 인증"
+	    },
+	    {
+	      "id": "186",
+	      "parentId": "185",
+	      "depth": "2",
+	      "code": "AC1",
+	      "name": "MADE_SAFE",
+	      "comments": "Made Safe"
+	    },
+	    {
+	      "id": "187",
+	      "parentId": "185",
+	      "depth": "2",
+	      "code": "AC2",
+	      "name": "LEAPING_BUNNY_APPROVED",
+	      "comments": "Leaping Bunny Approved"
+	    },
+	    {
+	      "id": "188",
+	      "parentId": "185",
+	      "depth": "2",
+	      "code": "AC3",
+	      "name": "ISO_22716_2007",
+	      "comments": "ISO 22716:2007"
+	    },
+	    {
+	      "id": "189",
+	      "parentId": "185",
+	      "depth": "2",
+	      "code": "AC4",
+	      "name": "HALAL_CERTIFICATION",
+	      "comments": "Halal Certification"
+	    },
+	    {
+	      "id": "190",
+	      "parentId": "185",
+	      "depth": "2",
+	      "code": "AC5",
+	      "name": "GLUTEN_REDUCED_CERTIFIED",
+	      "comments": "Gluten-Reduced Certified"
+	    },
+	    {
+	      "id": "191",
+	      "parentId": "185",
+	      "depth": "2",
+	      "code": "AC6",
+	      "name": "GLOBAL_CERTIFICATION_SERVICE_LTD",
+	      "comments": "Global Certification Service Ltd"
+	    },
+	    {
+	      "id": "192",
+	      "parentId": "185",
+	      "depth": "2",
+	      "code": "AC7",
+	      "name": "FDA_ANTIBIOTIC_FREE",
+	      "comments": "FDA Antibiotic Free"
+	    },
+	    {
+	      "id": "193",
+	      "parentId": "185",
+	      "depth": "2",
+	      "code": "AC8",
+	      "name": "FAIR_TRADE_CERTIFIED",
+	      "comments": "Fair Trade Certified"
+	    },
+	    {
+	      "id": "194",
+	      "parentId": "185",
+	      "depth": "2",
+	      "code": "AC9",
+	      "name": "EWG_VERIFIED",
+	      "comments": "EWG Verified"
+	    },
+	    {
+	      "id": "195",
+	      "parentId": "185",
+	      "depth": "2",
+	      "code": "AC10",
+	      "name": "ECOCERT",
+	      "comments": "EcoCert"
+	    },
+	    {
+	      "id": "196",
+	      "parentId": "185",
+	      "depth": "2",
+	      "code": "AC11",
+	      "name": "VEGAN_CERTIFIED",
+	      "comments": "Vegan Certified"
+	    },
+	    {
+	      "id": "197",
+	      "parentId": "185",
+	      "depth": "2",
+	      "code": "AC12",
+	      "name": "US_HALAL_CERTIFICATION",
+	      "comments": "US Halal Certification"
+	    },
+	    {
+	      "id": "198",
+	      "parentId": "185",
+	      "depth": "2",
+	      "code": "AC13",
+	      "name": "USDA_ORGANIC",
+	      "comments": "USDA Organic"
+	    },
+	    {
+	      "id": "199",
+	      "parentId": "185",
+	      "depth": "2",
+	      "code": "AC14",
+	      "name": "USDA_CERTIFIED_BIOBASED_PRODUCT",
+	      "comments": "USDA Certified Biobased Product"
+	    },
+	    {
+	      "id": "200",
+	      "parentId": "185",
+	      "depth": "2",
+	      "code": "AC15",
+	      "name": "USDA_BIOPREFERRED",
+	      "comments": "USDA BioPreferred"
+	    },
+	    {
+	      "id": "201",
+	      "parentId": "185",
+	      "depth": "2",
+	      "code": "AC16",
+	      "name": "UL_CERTIFICATION",
+	      "comments": "UL Certification"
+	    },
+	    {
+	      "id": "202",
+	      "parentId": "185",
+	      "depth": "2",
+	      "code": "AC17",
+	      "name": "THE_GREEN_GOOD_HOUSEKEEPING_SEAL",
+	      "comments": "The Green Good Housekeeping Seal"
+	    },
+	    {
+	      "id": "203",
+	      "parentId": "185",
+	      "depth": "2",
+	      "code": "AC18",
+	      "name": "SGS_PRODUCT_CERTIFIED",
+	      "comments": "SGS Product Certified"
+	    },
+	    {
+	      "id": "204",
+	      "parentId": "185",
+	      "depth": "2",
+	      "code": "AC19",
+	      "name": "SEDEX_CERTIFIED",
+	      "comments": "SEDEX Certified"
+	    },
+	    {
+	      "id": "205",
+	      "parentId": "185",
+	      "depth": "2",
+	      "code": "AC20",
+	      "name": "PFOA_FREE",
+	      "comments": "PFOA Free"
+	    },
+	    {
+	      "id": "206",
+	      "parentId": "185",
+	      "depth": "2",
+	      "code": "AC21",
+	      "name": "PETA_CRUELTY_FREE_AND_VEGAN",
+	      "comments": "PETA Cruelty Free and Vegan"
+	    },
+	    {
+	      "id": "207",
+	      "parentId": "185",
+	      "depth": "2",
+	      "code": "AC22",
+	      "name": "PETA_CRUELTY_FREE",
+	      "comments": "PETA Cruelty Free"
+	    },
+	    {
+	      "id": "208",
+	      "parentId": "185",
+	      "depth": "2",
+	      "code": "AC23",
+	      "name": "PEFC",
+	      "comments": "PEFC"
+	    },
+	    {
+	      "id": "209",
+	      "parentId": "185",
+	      "depth": "2",
+	      "code": "AC24",
+	      "name": "PALEO_CERTIFIED",
+	      "comments": "Paleo Certified"
+	    },
+	    {
+	      "id": "210",
+	      "parentId": "185",
+	      "depth": "2",
+	      "code": "AC25",
+	      "name": "NSF_NON_GMO",
+	      "comments": "NSF Non-GMO"
+	    },
+	    {
+	      "id": "211",
+	      "parentId": "185",
+	      "depth": "2",
+	      "code": "AC26",
+	      "name": "NSF_GMP",
+	      "comments": "NSF GMP"
+	    },
+	    {
+	      "id": "212",
+	      "parentId": "185",
+	      "depth": "2",
+	      "code": "AC27",
+	      "name": "NSF_ANSI_305",
+	      "comments": "NSF/ANSI 305"
+	    },
+	    {
+	      "id": "213",
+	      "parentId": "185",
+	      "depth": "2",
+	      "code": "AC28",
+	      "name": "NPA_NATURAL_SEAL_PERSONAL_CARE",
+	      "comments": "NPA Natural Seal: Personal Care"
+	    },
+	    {
+	      "id": "214",
+	      "parentId": "185",
+	      "depth": "2",
+	      "code": "AC29",
+	      "name": "NON_GMO_TESTED",
+	      "comments": "Non-GMO Tested -- International GMO Evaluation Notification Program (IGEN)"
+	    },
+	    {
+	      "id": "215",
+	      "parentId": "185",
+	      "depth": "2",
+	      "code": "AC30",
+	      "name": "PDO_PROTECTED_DESIGNATION_OF_ORIGIN",
+	      "comments": "PDO - Protected Designation of Origin"
+	    },
+	    {
+	      "id": "216",
+	      "parentId": "185",
+	      "depth": "2",
+	      "code": "AC31",
+	      "name": "DESIGNLIGHTS_CONSORTIUM_DLC_CERTIFICATION",
+	      "comments": "DesignLights Consortium (DLC) Certification"
+	    },
+	    {
+	      "id": "217",
+	      "parentId": "185",
+	      "depth": "2",
+	      "code": "AC32",
+	      "name": "COSMOS_STANDARD",
+	      "comments": "COSMOS-standard"
+	    },
+	    {
+	      "id": "218",
+	      "parentId": "185",
+	      "depth": "2",
+	      "code": "AC33",
+	      "name": "CODEX_GMP",
+	      "comments": "Codex GMP"
+	    },
+	    {
+	      "id": "219",
+	      "parentId": "185",
+	      "depth": "2",
+	      "code": "AC34",
+	      "name": "CHOOSE_CRUELTY_FREE",
+	      "comments": "Choose Cruelty Free"
+	    },
+	    {
+	      "id": "220",
+	      "parentId": "185",
+	      "depth": "2",
+	      "code": "AC35",
+	      "name": "CERTIFIED_ORGANIC",
+	      "comments": "Certified Organic"
+	    },
+	    {
+	      "id": "221",
+	      "parentId": "185",
+	      "depth": "2",
+	      "code": "AC36",
+	      "name": "CCOF_ORGANIC",
+	      "comments": "CCOF Organic"
+	    },
+	    {
+	      "id": "222",
+	      "parentId": "185",
+	      "depth": "2",
+	      "code": "AC37",
+	      "name": "CCIC_CRUELTY_FREE",
+	      "comments": "CCIC cruelty free"
+	    },
+	    {
+	      "id": "223",
+	      "parentId": "185",
+	      "depth": "2",
+	      "code": "AC38",
+	      "name": "BPA_FREE",
+	      "comments": "BPA Free"
+	    },
+	    {
+	      "id": "224",
+	      "parentId": "185",
+	      "depth": "2",
+	      "code": "AC39",
+	      "name": "BFC",
+	      "comments": "BFC"
+	    },
+	    {
+	      "id": "225",
+	      "parentId": "185",
+	      "depth": "2",
+	      "code": "AC40",
+	      "name": "AUSTRALIAN_CERTIFIED_ORGANIC",
+	      "comments": "Australian Certified Organic"
+	    },
+	    {
+	      "id": "226",
+	      "parentId": "185",
+	      "depth": "2",
+	      "code": "AC41",
+	      "name": "BANNED_SUBSTANCES_CONTROL_GROUP_BSCG",
+	      "comments": "Banned Substances Control Group (BSCG)"
+	    },
+	    {
+	      "id": "227",
+	      "parentId": "185",
+	      "depth": "2",
+	      "code": "AC42",
+	      "name": "GENERALLY_RECOGNIZED_AS_SAFE_GRAS",
+	      "comments": "Generally Recognized as Safe (GRAS)"
+	    },
+	    {
+	      "id": "228",
+	      "parentId": "185",
+	      "depth": "2",
+	      "code": "AC43",
+	      "name": "HEALTH_CANADA",
+	      "comments": "Health Canada"
+	    }
+	]
+}

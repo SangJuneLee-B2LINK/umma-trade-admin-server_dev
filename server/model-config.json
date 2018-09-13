@@ -1,0 +1,265 @@
+{
+  "_meta": {
+    "sources": [
+      "loopback/common/models",
+      "loopback/server/models",
+      "../common/models",
+      "./models"
+    ],
+    "mixins": [
+      "loopback/common/mixins",
+      "loopback/server/mixins",
+      "../common/mixins",
+      "./mixins"
+    ]
+  },
+  "Email": {
+    "dataSource": "emailDs"
+  },
+  "Container": {
+    "dataSource": "storage",
+    "public": true
+  },
+  "User": {
+    "dataSource": "ummaDs",
+    "public": false
+  },
+  "AccessToken": {
+    "dataSource": "ummaDs",
+    "public": false
+  },
+  "ACL": {
+    "dataSource": "ummaDs",
+    "public": false
+  },
+  "RoleMapping": {
+    "dataSource": "ummaDs",
+    "public": false,
+    "options": {
+      "strictObjectIDCoercion": true
+    }
+  },
+  "Role": {
+    "dataSource": "ummaDs",
+    "public": false
+  },
+  "CustomAcl": {
+    "dataSource": "ummaDs",
+    "public": false
+  },
+  "CustomRoleMapping": {
+    "dataSource": "ummaDs",
+    "public": false,
+    "options": {
+      "strictObjectIDCoercion": true
+    }
+  },
+  "CustomRole": {
+    "dataSource": "ummaDs",
+    "public": false
+  },
+  "CustomAccessToken": {
+    "dataSource": "ummaDs",
+    "public": true
+  },
+  "CommonCode": {
+    "dataSource": "ummaDs",
+    "public": true
+  },
+  "CommonSite": {
+    "dataSource": "ummaDs",
+    "public": true
+  },
+  "Country": {
+    "dataSource": "ummaDs",
+    "public": true
+  },
+  "CountryState": {
+    "dataSource": "ummaDs",
+    "public": true
+  },
+  "CountryCity": {
+    "dataSource": "ummaDs",
+    "public": true
+  },
+  "Brand": {
+    "dataSource": "ummaDs",
+    "public": true
+  },
+  "Category": {
+    "dataSource": "ummaDs",
+    "public": true
+  },
+  "Admin": {
+    "dataSource": "ummaDs",
+    "public": true,
+    "options": {
+      "remoting": {
+        "sharedMethods": {
+          "*": true,
+          "replaceOrCreate": true,
+          "login": true,
+          "logout": true
+        }
+      }
+    }
+  },
+  "AdminCompany": {
+    "dataSource": "ummaDs",
+    "public": true
+  },
+  "Buyer": {
+    "dataSource": "ummaDs",
+    "public": true,
+    "options": {
+      "ttl": 86400,
+      "remoting": {
+        "sharedMethods": {
+          "*": true,
+          "replaceOrCreate": true,
+          "login": true,
+          "logout": true
+        }
+      }
+    }
+  },
+  "BuyerCompany": {
+    "dataSource": "ummaDs",
+    "public": true
+  },
+  "Seller": {
+    "dataSource": "ummaDs",
+    "public": true,
+    "options": {
+      "remoting": {
+        "sharedMethods": {
+          "*": true,
+          "replaceOrCreate": true,
+          "login": true,
+          "logout": true
+        }
+      }
+    }
+  },
+  "SellerCompany": {
+    "dataSource": "ummaDs",
+    "public": true
+  },
+  "Product": {
+    "dataSource": "ummaDs",
+    "public": true
+  },
+  "ProductFavorite": {
+    "dataSource": "ummaDs",
+    "public": true
+  },
+  "ProductInquiry": {
+    "dataSource": "ummaDs",
+    "public": true
+  },
+  "ProductTag": {
+    "dataSource": "ummaDs",
+    "public": true
+  },
+  "ProductTransactionLog": {
+    "dataSource": "ummaDs",
+    "public": true
+  },
+  "Inquiry": {
+    "dataSource": "ummaDs",
+    "public": true
+  },
+  "InquiryReply": {
+    "dataSource": "ummaDs",
+    "public": true
+  },
+  "ViewProduct": {
+    "dataSource": "ummaDs",
+    "public": true,
+    "options": {
+      "remoting": {
+        "sharedMethods": {
+          "*": false,
+          "count": true,
+          "exists": true,
+          "find": true,
+          "findAll": true,
+          "findById": true,
+          "findOne": true
+        }
+      }
+    }
+  },
+  "ViewAdminUser": {
+    "dataSource": "ummaDs",
+    "public": true,
+    "options": {
+      "remoting": {
+        "sharedMethods": {
+          "*": false,
+          "count": true,
+          "exists": true,
+          "find": true,
+          "findAll": true,
+          "findById": true,
+          "findOne": true
+        }
+      }
+    }
+  },
+  "ViewBuyerUser": {
+    "dataSource": "ummaDs",
+    "public": true,
+    "options": {
+      "remoting": {
+        "sharedMethods": {
+          "*": false,
+          "count": true,
+          "exists": true,
+          "find": true,
+          "findAll": true,
+          "findById": true,
+          "findOne": true
+        }
+      }
+    }
+  },
+  "ViewInquiry": {
+    "dataSource": "ummaDs",
+    "public": true,
+    "options": {
+      "remoting": {
+        "sharedMethods": {
+          "*": false,
+          "count": true,
+          "exists": true,
+          "find": true,
+          "findAll": true,
+          "findById": true,
+          "findOne": true
+        }
+      }
+    }
+  },
+  "ViewProductFavorite": {
+    "dataSource": "ummaDs",
+    "public": true,
+    "options": {
+      "remoting": {
+        "sharedMethods": {
+          "*": false,
+          "count": true,
+          "exists": true,
+          "find": true,
+          "findAll": true,
+          "findById": true,
+          "findOne": true
+        }
+      }
+    }
+  },
+  "ProductSearchCondition": {
+    "dataSource": "ummaDs",
+    "public": true
+  }
+}

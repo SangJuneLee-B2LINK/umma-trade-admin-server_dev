@@ -1,0 +1,22 @@
+{
+  "ProductFavorite": [
+	{
+	  "id" : 1,
+	  "roleId" : 2,
+	  "userId" : 1,
+	  "prId" : 1
+	}
+	, {
+	  "id" : 2,
+	  "roleId" : 2,
+	  "userId" : 1,
+	  "prId" : 2
+	}
+	, {
+	  "id" : 3,
+	  "roleId" : 2,
+	  "userId" : 1,
+	  "prId" : 3
+	}
+  ]
+}
